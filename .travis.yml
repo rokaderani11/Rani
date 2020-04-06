@@ -5,7 +5,7 @@ cache: pip
 install:
   - pip install codecov
 script:
-  - coverage run CountVowel.py
+  - coverage run Sample.py
   
 after_success:
   - codecov
